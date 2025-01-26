@@ -1,0 +1,302 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:white
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+.hero {
+
+    width: 100vw;
+    height: 100vh;
+    background:url(DALL·E\ 2024-09-18\ 21.40.08\ -\ A\ clean\ and\ elegant\ cosmetic\ and\ skincare\ homepage\ banner\ featuring\ a\ luxurious\ lipstick\,\ a\ revitalizing\ serum\ bottle\,\ and\ a\ soft\ pastel\ pink\ backgrou.webp)center;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+    overflow: hidden;
+  }
+  .hero-content{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+  }
+  
+
+.featured-products {
+    padding: 2rem;
+    text-align: center;
+}
+.featured-products2 {
+    padding: 1rem;
+    text-align: center;
+}
+.featured-products3 {
+    padding: 1rem;
+    text-align: center;
+}
+.featured-products4 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+.product-grid2 {
+    display: flex;
+    justify-content: space-around;
+}
+.product-grid3 {
+    display: flex;
+    justify-content: space-around;
+}
+.product-grid4 {
+    display: flex;
+    justify-content: space-around;
+}
+.product-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+.product-item2 {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+.product-item3 {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}.product-item4 {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .socials a {
+    color: #ff6584;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+.m1{
+    padding: 1rem;
+    background-color: #ff6584;
+}
+.m2{
+    text-align: center;
+}
+main {
+    text-align: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px palevioletred;
+}
+
+h1, h2 {
+    margin: 0 0 20px;
+}
+
+.cart-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-summary th, .cart-summary td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.cart-summary .product-image {
+    width: 100px;
+    height: auto;
+}
+
+.order-summary ul {
+   
+    list-style: none;
+    padding: 0;
+}
+
+.order-summary li {
+    padding: 5px 0;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    background-color: #0abac7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.actions button:hover {
+    background-color: #e89ab5;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffb3c6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin: 0 0 20px;
+}
+
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-summary th, .order-summary td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.customer-info form {
+    display: grid;
+    gap: 10px;
+}
+
+.customer-info label {
+    font-weight: bold;
+}
+
+.customer-info input, .customer-info select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    background-color: #ffb3c6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.actions button:hover {
+    background-color: #e89ab5;
+}
+.customer-info{
+    text-align: center;
+}
+.about-us {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us h2 {
+    color: #ffb3c6;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-us strong {
+    color: #ffb3c6;
+}
+.abss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 1rem;
+}
+  
